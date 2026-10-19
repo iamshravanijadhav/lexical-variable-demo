@@ -62,7 +62,7 @@ Webpack generates the production files in the `docs` directory.
 ### 1. `npm` or `node` is not recognized
 
 - Install Node.js from the [official download page](https://nodejs.org/en/download).
-- Close and reopen PowerShell after installation.
+- Close and reopen your shell after installation.
 - Verify the installation using `node -v` and `npm -v`.
 
 ### 2. Dependency installation fails
