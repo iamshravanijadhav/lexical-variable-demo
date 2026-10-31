@@ -1,4 +1,5 @@
-# lexical-variable-demo [![Built on Blockly](https://tinyurl.com/built-on-blockly)](https://github.com/google/blockly)
+# lexical-variable-demo
+[![Built on Blockly](https://tinyurl.com/built-on-blockly)](https://github.com/google/blockly)
 
 A demo of the [Blockly lexical variables plugin](https://github.com/mit-cml/blockly-plugins/tree/main/block-lexical-variables). This project uses Webpack and ES6 modules.
 
@@ -29,13 +30,11 @@ Install dependencies:
 npm install --legacy-peer-deps
 ```
 
-The `--legacy-peer-deps` option skips strict peer-dependency conflict checks during installation. This project uses it in its existing setup instructions.
-
 The demo uses `blockly` version `11.2.2` and `@mit-app-inventor/blockly-block-lexical-variables` version `11.0.3`.
 
 ## Running the Demo
 
-Start the development server:
+Start the server:
 
 ```powershell
 npm run start
@@ -45,7 +44,7 @@ Open [http://localhost:8080](http://localhost:8080).
 
 Select blocks from the toolbox, arrange them in the workspace, and click **Generate Code**. The generated code is printed in the browser console.
 
-Press `Ctrl+C` in the terminal to stop the development server.
+Press `Ctrl+C` in the terminal to stop the server.
 
 ## Build a Deployable Version
 
