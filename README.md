@@ -34,8 +34,7 @@ The demo uses `blockly` version `11.2.2` and `@mit-app-inventor/blockly-block-le
 
 ## Running the Demo
 
-Start the server:
-
+Start the development server:
 ```powershell
 npm run start
 ```
